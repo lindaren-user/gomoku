@@ -16,4 +16,4 @@
 
 ![image](https://github.com/user-attachments/assets/666e75ac-098f-43d7-bb03-9a1da04f1c70)
 
-如有错误，望指正
+第一次作业，代码可能些许累赘，如有错误，望指正
