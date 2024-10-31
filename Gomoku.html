@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gomoku</title>
+  <link rel="stylesheet" href="./GomokuCss.css">
+  <link rel="shortcut icon" href="./image/main.jpg" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap" rel="stylesheet">
+</head>
+<body style="background-color: antiquewhite;">
+  <div id="head">Explosive Gomoku</div>
+  <div id="decr"></div>
+  <div id="btnStart" class="btn">Start Your Journey</div>
+  <div id="btnAbout" class="btn"><a href="https://lindaren-user.github.io/" target="_blank">About the Game...</a></div>
+  <canvas>
+    抱歉，你的浏览器暂时不支持canvas
+  </canvas>
+  <div id="isTurnTo">Turn:
+    <img class="chess" src="./image/black.jpg" id="black" alt="black">
+    <img class="chess" src="./image/white.jpg" id="white" alt="white">
+  </div>
+  <div id="finishGame">The <span id="player"></span> player is the winner.</div>
+  <div id="continue">continue...</div>
+  <script src="./GomokuJs.js"></script>
+</body>
+</html>
